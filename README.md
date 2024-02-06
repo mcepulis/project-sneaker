@@ -6,7 +6,7 @@ website design project
 
 This project is for testing porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://mcepulis.github.io/!!!
+Site published at: https://mcepulis.github.io/project-sneaker/
 
 Design: Ufo
 🎯 Project features/goals
@@ -33,7 +33,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
     Clone the repo
 
-    git clone https://mcepulis.github.io/!!!
+    git clone https://github.com/mcepulis/project-sneaker
 
 Install NPM packages
 

@@ -5,6 +5,7 @@ padding: 0;
 vertical-align: top;
 box-sizing: border-box;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -18,8 +19,17 @@ body {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
+    width: 800px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+   
 }
 
 .dots {
     display: flex;
+    flex-direction: row;
 }

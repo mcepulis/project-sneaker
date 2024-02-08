@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: sofiapro;
     src: url(./fonts/sofiapro-light.otf);
-  }
+  } */
 
 body,
 body * {
@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    width: 800px;
+    width: 80%;
     font-family: 'Jost';
 }
 
@@ -40,7 +40,7 @@ h1 > span {
 
 nav {
    display: flex;
-   gap: 20px;
+   gap: 25px;
    
 }
 
@@ -54,7 +54,7 @@ nav > a {
 
 .menu {
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
 
 .menu > a {
@@ -66,24 +66,25 @@ nav > a {
 /*MAIN******************/
 .container-main {
     display: flex;
+    width: 72%;
 }
 
 .leftmain {
     display: flex;
     flex-direction: column;
-    width: 270px;
+    width: 40%;
     gap: 10px;
     margin-top: 94px;
 }
 
 h5 {
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Jost';
     
 }
 
 p {
-    font-size: 37px;
+    font-size: 45px;
     line-height: 40px;
     text-transform: uppercase;
     font-weight: bolder;
@@ -106,7 +107,7 @@ button {
 .rightmain {
     display: flex;
     flex-direction: column;
-    width: 476px;
+    width: 60%;
     position: relative;
 }
 .shoes {

@@ -136,8 +136,23 @@ button {
 }
 
 .dots {
+    position: relative;
     display: flex;
     flex-direction: row;
+    font-size: 29px;
+    gap: 10px;
+}
+
+.circle {
+        position: absolute;
+        font-size: 28px;
+        border-radius: 50%;
+        padding: 6px;
+        border: 1px solid #000;
+        color: #000;
+        left: -2px;
+        bottom: 7px;
+        
 }
 
 

@@ -141,34 +141,54 @@ button {
 }
 
 .dots {
-    position: relative;
     display: flex;
     flex-direction: row;
-    font-size: 29px;
     gap: 10px;
 }
 
-.circle1:hover {
-    background-color: aquamarine;
+.circle1 {
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    background: #ffffff;
     cursor: pointer;
 }
-.circle2:hover {
-    background-color: aquamarine;
+.circle2 {
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    background: #ffffff;
     cursor: pointer;
 }
-.circle3:hover {
-    background-color: aquamarine;
+.circle3 {
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #000000;
+    text-align: center;
+    background: #ffffff;
     cursor: pointer;
-}
-.circle {
-        position: absolute;
-        font-size: 28px;
-        border-radius: 50%;
-        padding: 6px;
-        border: 1px solid #000;
-        color: #000;
-        left: -2px;
-        bottom: 7px;       
 }
 
+.circle1:hover {
+    border: 3px solid black;
+} 
+
+.circle2:hover {
+    border: 3px solid black;
+}  
+
+.circle3:hover {
+    border: 3px solid black;
+}  
 

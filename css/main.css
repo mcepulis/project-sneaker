@@ -66,19 +66,21 @@ nav > a {
 /*MAIN******************/
 .container-main {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .leftmain {
     display: flex;
     flex-direction: column;
     width: 270px;
-    column-gap: 20px;
+    gap: 10px;
+    margin-top: 94px;
 }
 
 h5 {
     font-size: 15px;
     font-family: 'Jost';
+    
 }
 
 p {
@@ -87,11 +89,14 @@ p {
     text-transform: uppercase;
     font-weight: 900;
     font-family: sofiapro;
+    
 }
 
 button {
+    margin-top: 20px;
     width: 100px;
     font-size: 12px;
+    font-weight: bold;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 3px;
@@ -104,15 +109,23 @@ button {
     display: flex;
     flex-direction: column;
     width: 476px;
-
-  
+    position: relative;
 }
 .shoes {
-    width: 562px;
+    width: 500px;
 }
 
 .shadow {
-    width: 420px;
+    width: 481px;
+    margin-left: 33px;
+    margin-top: -42px;
+}
+
+.nykenair {
+    position: absolute;
+    left: 53px;
+    width: 320px;
+    height: 202px;
 }
 
 /*FOOTER****************/

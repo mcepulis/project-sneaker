@@ -12,6 +12,7 @@ box-sizing: border-box;
 }
 
 body {
+    position: relative;
     padding-top: 40px;
     font-family: 'Jost';
 }
@@ -23,7 +24,7 @@ body {
     gap: 15px;
     align-items: center;
     font-family: 'Jost';
-    margin: 0px 20px
+    margin: 0px 120px
 }
 
 h1 {
@@ -36,7 +37,7 @@ h1 > span {
 
 nav {
    display: flex;
-   gap: 35px;
+   gap: 30px;
 }
 
 nav > a {
@@ -65,16 +66,15 @@ nav > a {
 .container-main {
     display: flex;
     align-items: center;
-    width: 1200px;
 }
 
 .leftmain {
     display: flex;
     flex-direction: column;
-    width: 700px;
+    width: 460px;
     gap: 10px;
     margin-bottom: 50px;
-    margin-left: 80px;
+    margin-left: 191px;
 }
 
 h5 {
@@ -133,7 +133,6 @@ button {
 .container-footer {
     display: flex;
     justify-content: center;
-   
 }
 
 .dots {
@@ -191,3 +190,13 @@ button {
     line-height: 15px;
 }  
 
+.arrow > .left {
+    position: absolute;
+    right: 95%;
+    bottom: 42%;
+}
+.arrow > .right {
+    position: absolute;
+    right: 3%;
+    bottom: 42%;
+}

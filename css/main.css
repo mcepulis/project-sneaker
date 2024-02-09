@@ -12,10 +12,6 @@ box-sizing: border-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 35px;
     padding-top: 40px;
     font-family: 'Jost';
 }
@@ -24,10 +20,10 @@ body {
 .container-header {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
-    width: 1200px;
     font-family: 'Jost';
+    margin: 0px 20px
 }
 
 h1 {
@@ -182,13 +178,16 @@ button {
 
 .circle1:hover {
     border: 3px solid black;
+    line-height: 15px;
 } 
 
 .circle2:hover {
     border: 3px solid black;
+    line-height: 15px;
 }  
 
 .circle3:hover {
     border: 3px solid black;
+    line-height: 15px;
 }  
 

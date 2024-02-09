@@ -133,6 +133,7 @@ button {
 .container-footer {
     display: flex;
     justify-content: center;
+    margin-top: 32px;
 }
 
 .dots {
@@ -144,7 +145,8 @@ button {
 .circle1 {
     width: 30px;
     height: 30px;
-    line-height: 20px;
+    line-height: 15px;
+    border: 3px solid black;
     border-radius: 50%;
     font-size: 50px;
     color: #000000;
@@ -194,9 +196,11 @@ button {
     position: absolute;
     right: 95%;
     bottom: 42%;
+    cursor: pointer;
 }
 .arrow > .right {
     position: absolute;
     right: 3%;
     bottom: 42%;
+    cursor: pointer;
 }
